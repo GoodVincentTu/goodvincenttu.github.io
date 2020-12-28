@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>process states on ResearchLog</title>
+    <link>https://goodvincenttu.github.io/tags/process-states/</link>
+    <description>Recent content in process states on ResearchLog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Dec 2020 17:06:54 +0000</lastBuildDate><atom:link href="https://goodvincenttu.github.io/tags/process-states/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thread &amp; Process series - 2</title>
+      <link>https://goodvincenttu.github.io/posts/2020/thread-process-2/</link>
+      <pubDate>Wed, 23 Dec 2020 17:06:54 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/posts/2020/thread-process-2/</guid>
+      <description>&lt;h2 id=&#34;more-about-process&#34;&gt;&lt;strong&gt;More about process&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;components&#34;&gt;Components&lt;/h3&gt;
+&lt;p&gt;Process is an abstract concept contains how the program loaded to the memory and utilizing the cooresponding machine resources.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

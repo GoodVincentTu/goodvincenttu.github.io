@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on ResearchLog</title>
+    <link>https://goodvincenttu.github.io/tags/</link>
+    <description>Recent content in Tags on ResearchLog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Dec 2020 17:06:54 +0000</lastBuildDate><atom:link href="https://goodvincenttu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pcb</title>
+      <link>https://goodvincenttu.github.io/tags/pcb/</link>
+      <pubDate>Wed, 23 Dec 2020 17:06:54 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/pcb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>process</title>
+      <link>https://goodvincenttu.github.io/tags/process/</link>
+      <pubDate>Wed, 23 Dec 2020 17:06:54 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>process states</title>
+      <link>https://goodvincenttu.github.io/tags/process-states/</link>
+      <pubDate>Wed, 23 Dec 2020 17:06:54 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/process-states/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thread</title>
+      <link>https://goodvincenttu.github.io/tags/thread/</link>
+      <pubDate>Wed, 23 Dec 2020 17:06:54 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/thread/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://goodvincenttu.github.io/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://goodvincenttu.github.io/tags/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://goodvincenttu.github.io/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://goodvincenttu.github.io/tags/hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://goodvincenttu.github.io/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://goodvincenttu.github.io/tags/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://goodvincenttu.github.io/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

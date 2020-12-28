@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://goodvincenttu.github.io/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="Thread &amp; Process series - 2"/>
+  <meta name="twitter:description" content="Discuss about the topics related with threads and processes."/>
+  
+    <meta name="twitter:site" content="@vincenttu18"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@Viincent"/>
+  
+
+
+
+		
+		<meta name="author" content="Viincent">
+		<meta name="description" content="Document some research note, or thoughts about how to design or implement system.">
+		<meta name="generator" content="Hugo 0.79.1" />
+		<title>Thread &amp; Process series - 2 &middot; ResearchLog</title>
+		<link rel="shortcut icon" href="https://goodvincenttu.github.io/images/favicon.png">
+		<link rel="stylesheet" href="https://goodvincenttu.github.io/css/style.css">
+		<link rel="stylesheet" href="https://goodvincenttu.github.io/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://goodvincenttu.github.io/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://goodvincenttu.github.io/index.xml" rel="alternate" type="application/rss+xml" title="ResearchLog" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://goodvincenttu.github.io/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://goodvincenttu.github.io/posts'>Archive</a>
+	<a href='https://goodvincenttu.github.io/tags'>Tags</a>
+	<a href='https://goodvincenttu.github.io/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://goodvincenttu.github.io/index.xml">RSS</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Thread &amp; Process series - 2
+                    </h1>
+                    <h2 class="headline">
+                    Dec 23, 2020 17:06
+                    · 111 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://goodvincenttu.github.io/tags/thread">thread</a>
+                          
+                              <a href="https://goodvincenttu.github.io/tags/process">process</a>
+                          
+                              <a href="https://goodvincenttu.github.io/tags/pcb">pcb</a>
+                          
+                              <a href="https://goodvincenttu.github.io/tags/process-states">process states</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#more-about-process"><strong>More about process</strong></a>
+      <ul>
+        <li><a href="#components">Components</a></li>
+        <li><a href="#pcb">PCB</a></li>
+        <li><a href="#process-states">Process States</a></li>
+        <li><a href="#process-communication">Process Communication</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    <h2 id="more-about-process"><strong>More about process</strong></h2>
+<h3 id="components">Components</h3>
+<p>Process is an abstract concept contains how the program loaded to the memory and utilizing the cooresponding machine resources.</p>
+<ul>
+<li>Process contains
+<ul>
+<li>Memories
+<ul>
+<li>text segment</li>
+<li>data segment</li>
+<li>heap segment</li>
+<li>counter / processor / registers</li>
+<li>stacks</li>
+</ul>
+</li>
+<li>OS resources</li>
+</ul>
+</li>
+</ul>
+<h3 id="pcb">PCB</h3>
+<p>PCB is a kind of table stored each process and record the state and related information. While encounteriing external interruption, internal interruption, or software interruption, OS(CPU scheduler) will do the context switch between each process. And OS leverages PCB to manage each of the process.</p>
+<ul>
+<li>Process Control Block (PCB)</li>
+</ul>
+<h3 id="process-states">Process States</h3>
+<ul>
+<li>Process state machine
+<ul>
+<li>new</li>
+<li>running</li>
+<li>waiting</li>
+<li>ready</li>
+<li>terminated</li>
+</ul>
+</li>
+</ul>
+<h3 id="process-communication">Process Communication</h3>
+<ul>
+<li>Interprocess Comunication</li>
+</ul>
+<h3 id="references">References</h3>
+<ol>
+<li><a href="https://medium.com/@yovan/os-process-thread-user-kernel-%E7%AD%86%E8%A8%98-aa6e04d35002">https://medium.com/@yovan/os-process-thread-user-kernel-%E7%AD%86%E8%A8%98-aa6e04d35002</a></li>
+<li><a href="https://sls.weco.net/node/21323">https://sls.weco.net/node/21323</a></li>
+<li><a href="https://mropengate.blogspot.com/2015/01/operating-system-ch3-processes.html">https://mropengate.blogspot.com/2015/01/operating-system-ch3-processes.html</a></li>
+<li><a href="https://www.geeksforgeeks.org/processes-in-linuxunix/">https://www.geeksforgeeks.org/processes-in-linuxunix/</a></li>
+<li><a href="https://www.geeksforgeeks.org/states-of-a-process-in-operating-systems/">https://www.geeksforgeeks.org/states-of-a-process-in-operating-systems/</a></li>
+<li><a href="https://wdv4758h-notes.readthedocs.io/zh_TW/latest/memory/memory-management.html">https://wdv4758h-notes.readthedocs.io/zh_TW/latest/memory/memory-management.html</a></li>
+</ol>
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fgoodvincenttu.github.io%2fposts%2f2020%2fthread-process-2%2f - Thread%20%26%20Process%20series%20-%202 by @vincenttu18"><span class="icon-twitter"> tweet</span></a>
+
+
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'vincenttu'; 
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/goodVincentTu">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.linkedin.com/in/vincenttutw/">
+        <i class="fa fa-linkedin-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://twitter.com/vincenttu18">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2020 <i class="fa fa-heart" aria-hidden="true"></i> Viincent
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="https://goodvincenttu.github.io/js/jquery-3.3.1.min.js"></script>
+<script src="https://goodvincenttu.github.io/js/main.js"></script>
+<script src="https://goodvincenttu.github.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+
+
+
+
+    </body>
+</html>
